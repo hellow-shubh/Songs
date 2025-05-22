@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href = "styles.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@594&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./Images/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+      <div class = "container">
+        <div class="songList">
+            <h1>Best songs for your cuties</h1>
+            <img src = "Images/Sound visualization.gif" alt="Sound visualization">
+         </div>
+         <div class="songBanner">
+          <div class="songItem">
+                <img src="./Images/ik kudi.jpg" alt="1">
+                <span class = "SongTitle">Ik Kudi</span>
+                <span class="songlistplay">
+                    <span>3:51</span>
+                    <i class="far songitemplay fa-play-circle"></i></span>
+            </div>
+            
+              <div class="songItem">
+                <img src="./Images/hua main.jpg" alt="2">
+                <span class = "SongTitle">Hua Main</span>
+                <span class="songlistplay">
+                    <span>4:57</span>
+                   <i class="far songitemplay  fa-play-circle"></i> </span>
+            </div>
+              <div class="songItem">
+                <img src="./Images/Admiring you.jpg" alt="3">
+                <span class = "SongTitle">Admiring you</span>
+                <span class="songlistplay">
+                    <span>3:27</span>
+                   <i class="far songitemplay  fa-play-circle"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="./Images/shillong.jpg" alt="4">
+                <span class = "SongTitle">Shillong</span>
+                <span class="songlistplay">
+                    <span>2:57</span>
+                  <i class="far songitemplay  fa-play-circle"></i>  </span>
+            </div>
+              
+              <div class="songItem">
+                <img src="./Images/ishq wala love.jpg" alt="5">
+                <span class = "SongTitle">Ishq wala love</span>
+                <span class="songlistplay">
+                    <span>3:45</span>
+                   <i class="far songitemplay  fa-play-circle"></i> </span>
+            </div>
+              <div class="songItem">
+                <img src="./Images/mrignaini.jpg" alt="6">
+                <span class = "SongTitle">Mrignaini</span>
+                <span class="songlistplay">
+                    <span>2:05</span>
+                    <i class="far songitemplay  fa-play-circle"></i></span>
+            </div>
+              <div class="songItem">
+                <img src="./Images/samjho na.jpg" alt="7">
+                <span class = "SongTitle">Samjho Na</span>
+                <span class="songlistplay">
+                    <span>2:49</span>
+                    <i class="far songitemplay  fa-play-circle"></i></span>
+            </div>
+         </div>
+        <div class="songBanner"></div>
+      
+    </div>
+
+    <div class="bottom">
+         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" >
+         <div class="icons"></div>
+         <!--Font Awesome Icons-->
+         <div class="icons">
+         <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+         <i class="far songitemplay fa-3x fa-play-circle" id = "MasterPlay"></i>
+         <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+         </div>
+        
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/08c43317c0.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
